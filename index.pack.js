@@ -399,7 +399,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Header = __webpack_require__(21);
+var _Header = __webpack_require__(8);
 
 var _Header2 = _interopRequireDefault(_Header);
 
@@ -407,7 +407,7 @@ var _Info = __webpack_require__(9);
 
 var _Info2 = _interopRequireDefault(_Info);
 
-var _About = __webpack_require__(7);
+var _About = __webpack_require__(6);
 
 var _About2 = _interopRequireDefault(_About);
 
@@ -415,7 +415,7 @@ var _Interests = __webpack_require__(10);
 
 var _Interests2 = _interopRequireDefault(_Interests);
 
-var _Footer = __webpack_require__(8);
+var _Footer = __webpack_require__(7);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -480,8 +480,7 @@ if (process.env.NODE_ENV === 'production') {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 6 */,
-/* 7 */
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -518,7 +517,7 @@ function About() {
 }
 
 /***/ }),
-/* 8 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -548,6 +547,32 @@ function Footer() {
       _react2.default.createElement("img", { className: "footer-icon", src: "./images/linkedin-icon.png" }),
       _react2.default.createElement("img", { className: "footer-icon", src: "./images/github-icon.png" })
     )
+  );
+}
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Header;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Header() {
+  return _react2.default.createElement(
+    "header",
+    { className: "header" },
+    _react2.default.createElement("img", { className: "avatar-img info-label", src: "../images/avatar_james.jpg" })
   );
 }
 
@@ -30672,32 +30697,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Header;
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Header() {
-  return _react2.default.createElement(
-    "header",
-    { className: "header" },
-    _react2.default.createElement("img", { className: "avatar-img info-label", src: "../images/avatar_james.jpg" })
-  );
-}
 
 /***/ })
 /******/ ]);
